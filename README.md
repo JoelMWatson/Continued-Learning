@@ -9,5 +9,5 @@ https://www.udemy.com/course/advanced-css-and-sass/
 Build Responsive Real World Websites with HTML5 and CSS3 - By Jonas Schmedtmann
 https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/
 
-Java Programming Masterclass for Software Developers - By Tim Bachulca
+Java Programming Masterclass for Software Developers - By Tim Buchalka
 https://www.udemy.com/course/java-the-complete-java-developer-course/
