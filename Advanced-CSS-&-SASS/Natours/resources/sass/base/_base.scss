@@ -1,0 +1,38 @@
+*,
+*::after,
+*:before,{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit; 
+}
+
+html {
+    // Defines what 1 rem is
+    font-size: 62.5%; /* sets from default 16px to 10px */
+    
+    @include responsive(laptop) {
+        font-size: 56.25%; // 1rem is now 16 * (9/16) = 9px
+    }
+    
+    @include responsive(tablet) {
+        font-size: 50%; // 1rem is now 16 * (8/16) = 8px
+    }
+    
+    @include responsive(huge) {
+        font-size: 75%; // 1rem is now 16 * (12/16) = 12px
+    }
+}
+
+body {
+    box-sizing: border-box;
+    padding: 3rem;
+    
+    @include responsive(tablet) {
+        padding: 0;
+    }
+}
+
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
+}

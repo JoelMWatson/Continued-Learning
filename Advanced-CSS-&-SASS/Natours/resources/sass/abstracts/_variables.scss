@@ -1,0 +1,63 @@
+// ------ COLORS ------
+
+// primary
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+// secondary 
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+// tertiary 
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+// light grey
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eeeeee;
+
+// dark grey
+$color-grey-dark-1: #333333;
+$color-grey-dark-2: #555555;
+$color-grey-dark-3: #777777;
+$color-grey-dark-4: #999999;
+
+
+// black & white
+$color-white: #ffffff;
+$color-black: #000000; 
+
+// ------ Shadows ------
+
+// box
+$box-shadow-small-high: 0 1rem 2rem rgba($color-black, .15);
+$box-shadow-small-low: 0 .5rem 1rem rgba($color-black, .2);
+
+$box-shadow-medium-high: 0 2rem 4rem rgba($color-black, .15);
+$box-shadow-medium-low: 0 1rem 2rem rgba($color-black, .2);
+
+$box-shadow-large-high: 0 2.5rem 5rem rgba($color-black, .15);
+$box-shadow-large--low: 0 1.25rem 2.5rem rgba($color-black, .2);
+
+$box-shadow-huge-high: 0 3rem 6rem rgba($color-black, .1);
+$box-shadow-huge-low: 0 1.5rem 3rem rgba($color-black, .15);
+
+// text
+$text-shadow-small: .5rem 1rem 2rem rgba($color-black, .2);
+
+// ------ BORDERS ------
+
+// radius
+$border-radius-small: 3px;
+
+// ------ FONT ------
+
+$default-font-size: 1.6rem;
+
+// ------ GRID ------
+$grid-width: 114rem;
+$gutter-vertical: 8rem;
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem;
+$gutter-horizontal-small: 4rem;

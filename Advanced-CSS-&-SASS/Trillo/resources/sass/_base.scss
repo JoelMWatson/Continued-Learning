@@ -1,0 +1,66 @@
+:root {
+    --color-primary: #EB2F64;
+    --color-primary-light: #FF3366;
+    --color-primary-dark: #BA265D;
+    
+    --color-grey-light-1: #FAF9F9;
+    --color-grey-light-2: #F4F2F2;
+    --color-grey-light-3: #F0EEEE;
+    --color-grey-light-4: #CCC;
+    
+    --color-grey-dark-1: #333;
+    --color-grey-dark-2: #777;
+    --color-grey-dark-3: #999;
+    
+    --color-white: #fff;
+    --color-black: #000;
+    
+    --shadow-light: 0 2rem 5rem rgba(0,0,0,.06);
+    --shadow-dark: 0 2rem 6rem rgba(0,0,0,.3);
+    
+    --line: 1px solid var(--color-grey-light-2);
+    
+    
+}
+
+// break point
+$bp-xl: 75em; // 1200px
+$bp-l: 68.75em; // 1100px
+$bp-m: 56.25em; // 900px
+$bp-s: 37.5em; // 600px
+$bp-xs: 31.25em; // 500px
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*::after,
+*::before,{
+    box-sizing: inherit; 
+}
+
+html {
+    // Defines what 1 rem is
+    font-size: 62.5%; /* sets from default 16px to 10px */
+    box-sizing: border-box;
+    
+    @media only screen and (max-width: $bp-l) {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-image: linear-gradient(to right bottom,
+        var(--color-primary-light), 
+        var(--color-primary-dark)
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: var(--color-grey-dark-2);
+    min-height: 100vh;
+}

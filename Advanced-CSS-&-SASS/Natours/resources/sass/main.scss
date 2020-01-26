@@ -1,0 +1,35 @@
+// 1 Abstracts
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+// 2 Base
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+   
+// 3 Components
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/card";
+@import "components/story";
+@import "components/bg-video"; 
+@import "components/form";
+@import "components/poppup"; 
+ 
+// 4 Layouts
+@import "layout/navigation";
+@import "layout/header";
+@import "layout/footer"; 
+@import "layout/grid";
+
+// 5 Pages
+@import "pages/home"; 
+ 
+// 6 Themes
+//@import "themes/"
+
+// 7 Vendors
+//@import "../../vendors/sass/

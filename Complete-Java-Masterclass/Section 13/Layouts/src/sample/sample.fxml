@@ -1,0 +1,9 @@
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Label?>
+<StackPane fx:controller="sample.Controller"
+           xmlns:fx="http://javafx.com/fxml" >
+<Label text="The label text" style="-fx-background-color: green;"/>
+<Button text="Button 1" style="-fx-background-color: red;"/>
+<Label text="The second label text" style="-fx-background-color: blue;"/>
+</StackPane>

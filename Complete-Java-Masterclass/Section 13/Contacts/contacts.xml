@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Joel</first_name>
+	<last_name>Watson</last_name>
+	<phone_number>(253)326-6660</phone_number>
+	<notes>Programmer</notes>
+</contact>
+<contact>
+	<first_name>Tracie</first_name>
+	<last_name>Tibberton</last_name>
+	<phone_number>(206)228-1166</phone_number>
+	<notes>Orange</notes>
+</contact>
+<contact>
+	<first_name>Jim</first_name>
+	<last_name>Johnson</last_name>
+	<phone_number>222-222-</phone_number>
+	<notes>Cool</notes>
+</contact>
+</contacts>
