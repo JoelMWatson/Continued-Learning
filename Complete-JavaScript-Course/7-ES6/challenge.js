@@ -37,6 +37,8 @@ class Street extends TownElement {
         this.size = size;
     }
     
+    
+    // Jonas's Function I just wanted to practice using maps
     classifyStreet() {
         const classification = new Map();
         
@@ -119,3 +121,11 @@ const streets = [new Street("Road A", 2.5, 1990), new Street("Road B", 3.1, 1991
 // creating the small town
 const town = new Town(parks, streets);
 town.reports();
+
+
+// Jonas Calc function using .reduce()
+// This function calculates the sum of the array by using the reduce function
+function calc(array) {
+    const sum = array.reduce((previous, current, index) => previous + current, 0); // starts at index 0;
+    return [sum, sum / array.length];    
+}

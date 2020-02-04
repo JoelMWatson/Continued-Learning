@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Asynchronous JavaScript</title>
+</head>
+<body>
+    <h1>Asynchronous JavaScript</h1>
+    <script>
+//        // create a function
+//        const first = () => {
+//            console.log("The Start...");
+//            second();
+//            console.log("The End...");
+//        }        
+//        const second = () => {
+//            setTimeout(() => {
+//                console.log("Async call...");
+//            }, 2000);
+//        }        
+//        first();
+        
+        // ES5 Callback Hell
+//        function getRecipe() {
+//            
+//            // First API Call
+//            setTimeout(() => {
+//                const recipeID = [52, 27, 49, 22];
+//                console.log(recipeID);
+//                
+//                // Second API Call
+//                setTimeout((id) => {
+//                    const recipe = {title: "Fresh Tomato Pasta", publisher: "Joel"};
+//                    console.log(`${id}: ${recipe.title}`);
+//                    
+//                    // Third API Call
+//                    setTimeout(publisher => {
+//                        const recipe2 = {title: "Italian Pizza", publisher: "Joel"};
+//                        console.log(recipe2);
+//                        
+//                    }, 1500, recipe.publisher);
+//                    
+//                }, 1000, recipeID[2]); // ID: 49
+//                
+//            }, 1500);
+//        }
+//        getRecipe();
+
+        // Promises: Solution to callback hell
+        // Create Promise
+//        const getIDs = new Promise((resolve, reject) => {
+//            setTimeout(() => {
+//                const result = [52, 27, 49, 22];
+//                resolve(result);
+//            }, 1500);
+//        });
+//        
+//        const getRecipe = recipeID => {
+//            return new Promise((resolve, reject) => {
+//                setTimeout(ID => {
+//                    const recipe = {title: "Fresh Tomato Pasta", publisher: "Joel"};
+//                    resolve(`${ID}: ${recipe.title}`);
+//                }, 1500, recipeID);                
+//            });
+//        };
+//        
+//        const getRelated = publisher => {
+//            return new Promise((resolve, reject) => {
+//                setTimeout(publisher => {
+//                    const recipe = {title: "Italian Pizza", publisher: "Joel"};
+//                    resolve(`${publisher}: ${recipe.title}`);
+//                }, 1500, publisher);                        
+//            });
+//        };
+//        
+//        // Consume Promise (chaining)
+////        getIDs
+////        .then(IDs => {
+////            console.log(`IDs: ${IDs}`);
+////            return getRecipe(IDs[2]);
+////        })
+////        .then(recipe => {
+////            console.log(recipe);
+////            return getRelated("Joel");
+////        })
+////        .then(publisher => {
+////            console.log(publisher);
+////            
+////        })
+////        .catch(error => {
+////            console.log(`Error: ${error}`);
+////        });
+//        
+//        // Consuming Promises with Async/Await
+//        async function getRecipesAW() {
+//            
+//            const IDs = await getIDs; // await only available in an async function 
+//            console.log(IDs);
+//            
+//            const recipe = await getRecipe(IDs[2]);
+//            console.log(recipe);
+//            
+//            const related = await getRelated("Joel");
+//            console.log(related);
+//            
+//            return recipe;
+//            
+//        }
+//        //const rec = getRecipesAW(); // doesnt work because its async
+//        getRecipesAW().then(result => {
+//            console.log(`${result} is the best ever!`);
+//        });
+        
+        // Fetch API
+        
+        // https://www.metaweather.com/api/location/2487956
+        function getWeather(wid) {
+           fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${wid}/`)
+           .then(result => {
+               return result.json();
+           })
+           .then(data => {
+               console.log(data);
+               const today = data.consolidated_weather[0];
+               console.log(`Temperature in ${data.title} stay between ${today.min_temp} and ${today.max_temp}.`)
+           })
+           .catch(error => {
+               console.log(error);
+           })
+        }    
+        getWeather(2487956); // San Francisco
+        getWeather(44418); // London
+        
+        async function getWeatherAW(wid) {
+            try {
+                const result = await fetch(`https://cors-anywhere.herokuapp.com/https://www.metaweather.com/api/location/${wid}/`);
+                const data = await result.json();
+                const today = data.consolidated_weather[0];
+                console.log(`Temperature in ${data.title} stay between ${today.min_temp} and ${today.max_temp}.`);
+                return data;
+            } catch (error) {
+                console.log(error);
+            }
+            
+        }
+        let sanfran;
+        getWeatherAW(2487956).then(data => {
+            sanfran = data;
+            console.log(data);
+        }); // San Francisco
+        let london;
+        getWeatherAW(44418).then(data => {
+            london = data;
+            console.log(data);
+        }); // London
+    </script>
+</body>
+</html>
