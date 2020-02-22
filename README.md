@@ -10,3 +10,6 @@ The following list gives the class names, professors, and Udemy links to find th
 [Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/) - By Tim Buchalka
 
 [The Complete JavaScript Course 2020: Build Real Projects!](https://www.udemy.com/course/the-complete-javascript-course/) - By Jonas Schmedtmann
+
+[The Complete Node.js Developer Course (3rd edition)](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/) - By Andrew Mead
+
