@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="./css/styles.css">
+    <title><%= title %></title>
+</head>
+<body>
+<div class="content">
+    <%- include("../partials/header.ejs"); %>
+    <p>
+        <%= message %>
+    </p>
+    <form>
+        <input type="text" placeholder="Location" name="location">
+        <button type="submit" class="submit">Submit</button>
+    </form>
+    <p class="message_1">
+    </p>
+    <p class="message_2">
+    </p>
+</div>
+<%- include("../partials/footer.ejs"); %>
+<script type="text/javascript" src="./js/app.js"></script>
+</body>
+</html>
