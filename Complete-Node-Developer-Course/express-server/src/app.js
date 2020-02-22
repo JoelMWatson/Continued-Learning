@@ -14,6 +14,7 @@ const views = path.join(__dirname, "../views");
 
 // --------- APP ---------
 const app = express();
+const port = process.env.PORT || 3000;
 
 // Set EJS for templating
 app.set('view engine', 'ejs');
@@ -79,6 +80,6 @@ app.get('*', (req, res) => {
 });
 
 // Start the app
-app.listen(3000, () => {
-    console.log("Server started correctly listening on port 3000");
+app.listen(port, () => {
+    console.log(`Server started correctly listening on port ${port}`);
 });

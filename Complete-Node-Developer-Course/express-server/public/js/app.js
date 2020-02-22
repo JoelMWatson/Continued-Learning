@@ -10,7 +10,7 @@ form.addEventListener("submit", (e) => {
     message_1.textContent = "Loading...";
     message_2.textContent = "";
     const address = document.querySelector("input[name='location']").value;
-    fetch(`http://localhost:3000/api?address=${address}`).then((response) => {
+    fetch(`/api?address=${address}`).then((response) => {
         response.json().then((data) => {
             if (data.error) {
                 message_1.textContent = "";
