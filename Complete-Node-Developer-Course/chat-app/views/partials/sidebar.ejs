@@ -1,0 +1,7 @@
+<h2 class="room-title"><%= room %></h2>
+<h3 class="list-title">Users</h3>
+<ul class="users">
+    <% users.forEach((user) => { %>
+        <li><%= user.username %></li>
+    <% }) %>
+</ul>
