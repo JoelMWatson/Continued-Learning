@@ -34,7 +34,6 @@ io.on('connection', (socket) => {
             username: username,
             room: room
         });
-        const users = getUsersInRoom(user.room);
 
         if (error) {
             return callback(error);
@@ -45,7 +44,7 @@ io.on('connection', (socket) => {
         // welcome user & inform room of new user
         renderMessage(`Welcome, ${user.username}!`, "System", socket, app);
         renderMessage(`${user.username} has joined!`, 'System', socket.to(user.room).broadcast, app);
-        renderUserList(user.room, users, io.to(user.room), app);
+        renderUserList(user.room, getUsersInRoom(user.room), io.to(user.room), app);
         callback();
     });
 
@@ -70,10 +69,7 @@ io.on('connection', (socket) => {
         const user = removeUser(socket.id);
         if (user) {
             renderMessage(`${user.username} has left!`, 'System', io.to(user.room), app);
-            io.to(user.room).emit('room-data', {
-                room: user.room,
-                users: getUsersInRoom(user.room)
-            });
+            renderUserList(user.room, getUsersInRoom(user.room), io.to(user.room), app);
         }
     });
 });

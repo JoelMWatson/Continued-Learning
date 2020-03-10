@@ -38,6 +38,7 @@ socket.on('message', (message) => {
 
 socket.on('room-data', (html) => {
     $users.innerHTML = html;
+    console.log(html);
     autoscroll();
 });
 

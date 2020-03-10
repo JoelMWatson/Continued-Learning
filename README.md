@@ -13,3 +13,5 @@ The following list gives the class names, professors, and Udemy links to find th
 
 [The Complete Node.js Developer Course (3rd edition)](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/) - By Andrew Mead
 
+[Modern React with Redux (2020 Update)](https://www.udemy.com/course/react-redux/) - By Stephen Grider
+
