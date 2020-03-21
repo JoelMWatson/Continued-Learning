@@ -15,3 +15,26 @@ The following list gives the class names, professors, and Udemy links to find th
 
 [Modern React with Redux (2020 Update)](https://www.udemy.com/course/react-redux/) - By Stephen Grider
 
+### Cloning A Section
+
+If you ever need to clone a section use the following instructions (from stack overflow)
+
+Create empty repo with remote, and fetch files (but don't check them out).
+
+	mkdir <repo>
+	cd <repo>
+	git init
+    git remote add -f origin <url>
+    
+Enable parseCheckout
+
+    git config core.sparseCheckout true
+    
+Now define which files/folders you want to check out by listing in .git/info/sparse-checkout
+
+    echo "some/dir/" >> .git/info/sparse-checkout
+    echo "another/sub/tree" >> .git/info/sparse-checkout
+    
+Lastly
+
+    git pull origin master 
