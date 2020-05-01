@@ -1,4 +1,4 @@
-# Udemy Work
+# Continued Learning
 This repository holds the projects I've worked/am working on while going through Udemy courses. I placed it all in one repository so I wouldn't have a bunch of them filled with udemy code. I do not claim to have thought up these projects on my own. I wrote them following tutorials and doing challenges to become a better developer. 
 
 The following list gives the class names, professors, and Udemy links to find the associated courses for the code in this repo.
