@@ -1,0 +1,24 @@
+{
+  "streams": [
+    {
+      "title": "my title",
+      "description": "described",
+      "id": 1
+    },
+    {
+      "title": "Alright",
+      "description": "Working Again",
+      "id": 2
+    },
+    {
+      "title": "I Created eggs",
+      "description": "Wow Im Amazing",
+      "id": 3
+    },
+    {
+      "title": "Programmatic Navigation",
+      "description": "Can we deal with it though",
+      "id": 4
+    }
+  ]
+}
