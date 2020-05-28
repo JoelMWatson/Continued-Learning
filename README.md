@@ -1,5 +1,6 @@
 # Continued Learning
-This repository holds the projects I've worked/am working on while going through Udemy courses. I placed it all in one repository so I wouldn't have a bunch of them filled with udemy code. I do not claim to have thought up these projects on my own. I wrote them following tutorials and doing challenges to become a better developer. 
+
+This repository holds the projects I've worked/am working on while going through Udemy courses. I placed it all in one repository so I wouldn't have a bunch of them filled with udemy code. I do not claim to have thought up these projects on my own. I wrote them following tutorials and doing challenges to become a better developer.
 
 The following list gives the class names, professors, and Udemy links to find the associated courses for the code in this repo.
 
@@ -15,26 +16,28 @@ The following list gives the class names, professors, and Udemy links to find th
 
 [Modern React with Redux (2020 Update)](https://www.udemy.com/course/react-redux/) - By Stephen Grider
 
+[React Native + Hooks Course (2020 Update)](https://www.udemy.com/course/the-complete-react-native-and-redux-course/) - By Stephen Grider
+
 ### Cloning A Section
 
 If you ever need to clone a section use the following instructions (from stack overflow)
 
 Create empty repo with remote, and fetch files (but don't check them out).
 
-	mkdir <repo>
-	cd <repo>
-	git init
+    mkdir <repo>
+    cd <repo>
+    git init
     git remote add -f origin <url>
-    
+
 Enable parseCheckout
 
     git config core.sparseCheckout true
-    
+
 Now define which files/folders you want to check out by listing in .git/info/sparse-checkout
 
     echo "some/dir/" >> .git/info/sparse-checkout
     echo "another/sub/tree" >> .git/info/sparse-checkout
-    
+
 Lastly
 
-    git pull origin master 
+    git pull origin master
