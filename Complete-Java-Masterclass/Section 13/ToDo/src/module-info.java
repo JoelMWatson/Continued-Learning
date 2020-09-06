@@ -9,7 +9,6 @@
 module ToDo {
     requires javafx.fxml;
     requires javafx.controls;
-    requires jlfgr;
 
     opens com.joelwatson.todolist;
 }

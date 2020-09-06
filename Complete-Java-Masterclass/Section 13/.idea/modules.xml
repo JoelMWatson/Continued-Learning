@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Contacts/Contacts.iml" filepath="$PROJECT_DIR$/Contacts/Contacts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Control/Control.iml" filepath="$PROJECT_DIR$/Control/Control.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Events/Events.iml" filepath="$PROJECT_DIR$/Events/Events.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HelloWordlFX/HelloWordlFX.iml" filepath="$PROJECT_DIR$/HelloWordlFX/HelloWordlFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Layouts/Layouts.iml" filepath="$PROJECT_DIR$/Layouts/Layouts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SceneBuilder/SceneBuilder.iml" filepath="$PROJECT_DIR$/SceneBuilder/SceneBuilder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Section 13.iml" filepath="$PROJECT_DIR$/Section 13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToDo/ToDo.iml" filepath="$PROJECT_DIR$/ToDo/ToDo.iml" />
+    </modules>
+  </component>
+</project>

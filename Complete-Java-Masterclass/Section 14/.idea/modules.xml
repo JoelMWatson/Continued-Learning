@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdventureRandom/AdventureRandom.iml" filepath="$PROJECT_DIR$/AdventureRandom/AdventureRandom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exceptions/Exceptions.iml" filepath="$PROJECT_DIR$/Exceptions/Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InputOutput/InputOutput.iml" filepath="$PROJECT_DIR$/InputOutput/InputOutput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NIOAdventure/NIOAdventure.iml" filepath="$PROJECT_DIR$/NIOAdventure/NIOAdventure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Section 14.iml" filepath="$PROJECT_DIR$/.idea/Section 14.iml" />
+    </modules>
+  </component>
+</project>
