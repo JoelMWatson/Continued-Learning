@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:controller="com.joelwatson.Controller"
+          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+    <Button text="Get Employee names" onAction="#buttonPressed"
+            GridPane.rowIndex="0" GridPane.columnIndex="0" />
+    <ListView GridPane.rowIndex="1" GridPane.columnIndex="0" fx:id="listView" />
+    <ProgressBar fx:id="progressBar" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+    <Label fx:id="progressLabel" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+</GridPane>

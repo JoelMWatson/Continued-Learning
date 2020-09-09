@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BackgroundTasks/BackgroundTasks.iml" filepath="$PROJECT_DIR$/BackgroundTasks/BackgroundTasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Challenges/Challenges.iml" filepath="$PROJECT_DIR$/Challenges/Challenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Counter/Counter.iml" filepath="$PROJECT_DIR$/Counter/Counter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Deadlocks/Deadlocks.iml" filepath="$PROJECT_DIR$/Deadlocks/Deadlocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LiveLock/LiveLock.iml" filepath="$PROJECT_DIR$/LiveLock/LiveLock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Messages/Messages.iml" filepath="$PROJECT_DIR$/Messages/Messages.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ProducerConsumer/ProducerConsumer.iml" filepath="$PROJECT_DIR$/ProducerConsumer/ProducerConsumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Section 15.iml" filepath="$PROJECT_DIR$/.idea/Section 15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Starvation/Starvation.iml" filepath="$PROJECT_DIR$/Starvation/Starvation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Threads/Threads.iml" filepath="$PROJECT_DIR$/Threads/Threads.iml" />
+    </modules>
+  </component>
+</project>
