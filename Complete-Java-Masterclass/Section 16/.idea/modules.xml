@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ButtonFX/ButtonFX.iml" filepath="$PROJECT_DIR$/ButtonFX/ButtonFX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Challenges/Challenges.iml" filepath="$PROJECT_DIR$/Challenges/Challenges.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Employees/Employees.iml" filepath="$PROJECT_DIR$/Employees/Employees.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lambdas/Lambdas.iml" filepath="$PROJECT_DIR$/Lambdas/Lambdas.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Section 16.iml" filepath="$PROJECT_DIR$/.idea/Section 16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Streams/Streams.iml" filepath="$PROJECT_DIR$/Streams/Streams.iml" />
+    </modules>
+  </component>
+</project>
