@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MusicUI-Modules.iml" filepath="$PROJECT_DIR$/MusicUI-Modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.joelwatson.common/com.joelwatson.common.iml" filepath="$PROJECT_DIR$/com.joelwatson.common/com.joelwatson.common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.joelwatson.db/com.joelwatson.db.iml" filepath="$PROJECT_DIR$/com.joelwatson.db/com.joelwatson.db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.joelwatson.ui/com.joelwatson.ui.iml" filepath="$PROJECT_DIR$/com.joelwatson.ui/com.joelwatson.ui.iml" />
+    </modules>
+  </component>
+</project>

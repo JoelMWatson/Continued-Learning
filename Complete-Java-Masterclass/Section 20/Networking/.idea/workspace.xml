@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9d94daad-a22d-4531-9f3d-141f627d867d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/.idea/Pre Section 7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/ByteShortInt/ByteShortInt.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/CharAndBoolean/CharAndBoolean.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/CodingExercises/CodingExercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/FloatAndDouble/FloatAndDouble.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/HelloWorld/HelloWorld.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/KeywordsAndExpressions/KeywordsAndExpressions.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/Operators/Operators.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/OverloadingMethods/OverloadingMethods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/ParsingValuesFromStrings/ParsingValuesFromStrings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/SecondsAndMinutesChallenge/SecondsAndMinutesChallenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/StatementsWhitespaceAndIndenting/StatementsWhitespaceAndIndenting.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/Strings/Strings.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 1-6/Switch/Switch.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 17/.idea/Section 17.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 17/Regex/Regex.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 17/Regex/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/.idea/Section 18.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Banking/Banking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Banking/src/com/joelwatson/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Banking/src/com/joelwatson/BankAccountTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Banking/src/com/joelwatson/BankAccountTestParameterized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Banking/src/com/joelwatson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Challenge/Challenge.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Challenge/src/com/joelwatson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Challenge/src/com/joelwatson/Utilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Challenge/src/com/joelwatson/UtilitiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Challenge/src/com/joelwatson/UtilitiesTestParameterized.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Debugging/Debugging.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Debugging/src/com/joelwatson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 18/Debugging/src/com/joelwatson/StringUtilities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/.idea/Section 19.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/Music/Music.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/Music/music.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/Music/src/com/joelwatson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/Music/src/com/joelwatson/model/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/Music/src/com/joelwatson/model/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/Music/src/com/joelwatson/model/Datasource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/Music/src/com/joelwatson/model/Song.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/Music/src/com/joelwatson/model/SongArtist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/MusicUI/MusicUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/MusicUI/music.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/MusicUI/src/com/joelwatson/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/MusicUI/src/com/joelwatson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/MusicUI/src/com/joelwatson/main.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/MusicUI/src/com/joelwatson/model/Album.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/MusicUI/src/com/joelwatson/model/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/MusicUI/src/com/joelwatson/model/Datasource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/MusicUI/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/TestDB/TestDB.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/TestDB/src/com/joelwatson/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 19/TestDB/testjava.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/commons_cli_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Networking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/joelwatson/ApacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TCP/TCP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TCP/com.joelwatson.client/com.joelwatson.client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TCP/com.joelwatson.server/com.joelwatson.server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP/UDP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP/com.joelwatson.client/com.joelwatson.client.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP/com.joelwatson.client/src/com/joelwatson/client/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP/com.joelwatson.client/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP/com.joelwatson.server/com.joelwatson.server.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP/com.joelwatson.server/src/com/joelwatson/server/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../UDP/com.joelwatson.server/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/.idea/MusicUI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/.idea/libraries/sqlite_jdbc_3_32_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/MusicUI-Modules.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/com.joelwatson.common/com.joelwatson.common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/com.joelwatson.common/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/com.joelwatson.db/com.joelwatson.db.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/com.joelwatson.db/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/com.joelwatson.ui/com.joelwatson.ui.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Section 21/MusicUI/com.joelwatson.ui/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/ByteShortInt/ByteShortInt.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/ByteShortInt/src/com/joelwatson/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CharAndBoolean/CharAndBoolean.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CharAndBoolean/src/com/joelwatson/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/CodingExercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/AreaCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/BarkingDog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/DecimalComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/DiagonalStar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/EqualSumChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/EvenDigitSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/FlourPackProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/GreatestCommonDivisor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/InputCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/IntEqualityPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/LargestPrime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/LastDigitChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/LeapYearCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/MegaBytesConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/MinutesToYearsDaysCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/NumberInWord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/NumberOfDaysInMonth.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/NumberPalindrome.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/NumberToWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/PaintJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/PlayingCat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/SharedDigits.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/SpeedConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/SumFirstAndLastDigit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/SumOdd.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/CodingExercises/src/TeenNumberChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/FloatAndDouble/FloatAndDouble.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/FloatAndDouble/src/com/joelwatson/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/HelloWorld/HelloWorld.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/HelloWorld/src/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/KeywordsAndExpressions/KeywordsAndExpressions.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/KeywordsAndExpressions/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/Operators/Operators.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/Operators/src/com/joelwatson/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/OverloadingMethods/OverloadingMethods.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/OverloadingMethods/src/OverLoadingMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/ParsingValuesFromStrings/ParsingValuesFromStrings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/ParsingValuesFromStrings/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/SecondsAndMinutesChallenge/SecondsAndMinutesChallenge.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/SecondsAndMinutesChallenge/src/SecondsAndMinutesChallenge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/StatementsWhitespaceAndIndenting/StatementsWhitespaceAndIndenting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/StatementsWhitespaceAndIndenting/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/Strings/Strings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/Strings/src/com/joelwatson/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/Switch/Switch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pre Section 7/Switch/src/com/joelwatson/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1hZPiHsROwTNUi55O28U1xi71W7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../jars/httpcomponents-client-5.0.1/lib/slf4j-api-1.7.25.jar" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.ApacheTest">
+    <configuration name="ApacheTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.joelwatson.ApacheTest" />
+      <module name="Networking" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.joelwatson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.joelwatson.Main" />
+      <module name="Networking" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ApacheTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ApacheTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9d94daad-a22d-4531-9f3d-141f627d867d" name="Default Changelist" comment="" />
+      <created>1600215766527</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600215766527</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="561" y="202" key="FileChooserDialogImpl" timestamp="1600225522902">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="561" y="202" key="FileChooserDialogImpl/0.0.1707.920/-624.-1080.1920.1040@0.0.1707.920" timestamp="1600225522902" />
+    <state width="1663" height="242" key="GridCell.Tab.0.bottom" timestamp="1600227224441">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920/-624.-1080.1920.1040@0.0.1707.920" timestamp="1600225977591" />
+    <state width="1663" height="242" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1600227224441" />
+    <state width="1663" height="242" key="GridCell.Tab.0.center" timestamp="1600227224440">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920/-624.-1080.1920.1040@0.0.1707.920" timestamp="1600225977591" />
+    <state width="1663" height="242" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1600227224440" />
+    <state width="1663" height="242" key="GridCell.Tab.0.left" timestamp="1600227224440">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920/-624.-1080.1920.1040@0.0.1707.920" timestamp="1600225977591" />
+    <state width="1663" height="242" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1600227224440" />
+    <state width="1663" height="242" key="GridCell.Tab.0.right" timestamp="1600227224441">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920/-624.-1080.1920.1040@0.0.1707.920" timestamp="1600225977591" />
+    <state width="1663" height="242" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1600227224441" />
+    <state x="334" y="35" key="SettingsEditor" timestamp="1600225526187">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="334" y="35" key="SettingsEditor/0.0.1707.920/-624.-1080.1920.1040@0.0.1707.920" timestamp="1600225526187" />
+  </component>
+</project>
