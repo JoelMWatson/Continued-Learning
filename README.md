@@ -18,7 +18,7 @@ The following list gives the class names, professors, and Udemy links to find th
 
 [React Native + Hooks Course (2020 Update)](https://www.udemy.com/course/the-complete-react-native-and-redux-course/) - By Stephen Grider
 
-[Spring & Hibernate (includes Spring Boot)](https://www.udemy.com/course/spring-hibernate-tutorial/) - By Stephen Grider
+[Spring & Hibernate (includes Spring Boot)](https://www.udemy.com/course/spring-hibernate-tutorial/) - By Chard Darby
 
 ### Cloning A Section
 
