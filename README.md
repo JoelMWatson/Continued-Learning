@@ -22,6 +22,8 @@ The following list gives the class names, professors, and Udemy links to find th
 
 [Ethereum and Solidity: The Complete Developers Guide](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/) - By Stephen Grider
 
+[The Modern GraphQL Bootcamp](https://www.udemy.com/course/graphql-bootcamp/) - By Andrew Mead
+
 ### Cloning A Section
 
 If you ever need to clone a section use the following instructions (from stack overflow)
