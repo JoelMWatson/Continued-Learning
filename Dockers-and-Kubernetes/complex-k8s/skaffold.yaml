@@ -1,0 +1,42 @@
+apiVersion: skaffold/v2beta3
+kind: Config
+deploy:
+  kubectl:
+    manifests:
+      - ./k8s/client-deployment.yaml
+      - ./k8s/server-deployment.yaml
+      - ./k8s/worker-deployment.yaml
+      - ./k8s/client-cluster-ip-service.yaml
+      - ./k8s/server-cluster-ip-service.yaml
+build:
+  local:
+    push: false
+  artifacts:
+    - image: joel3rbear/multi-client
+      context: client
+      docker:
+        dockerfile: Dockerfile.dev
+      sync:
+        manual:
+          - src: 'src/**/*.js'
+            dest: .
+          - src: 'src/**/*.css'
+            dest: .
+          - src: 'src/**/*.html'
+            dest: .
+    - image: joel3rbear/multi-server
+      context: server
+      docker:
+        dockerfile: Dockerfile.dev
+      sync:
+        manual:
+          - src: '**/*.js'
+            dest: .
+    - image: joel3rbear/multi-worker
+      context: worker
+      docker:
+        dockerfile: Dockerfile.dev
+      sync:
+        manual:
+          - src: '**/*.js'
+            dest: .

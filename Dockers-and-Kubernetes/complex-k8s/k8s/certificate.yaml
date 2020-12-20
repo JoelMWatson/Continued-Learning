@@ -1,0 +1,20 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+  name: raincityprogramming-com-tls
+spec:
+  secretName: raincityprogramming-com
+  issuerRef:
+    name: letsencrypt-prod
+    kind: ClusterIssuer
+  commonName: raincityprogramming.com
+  dnsNames:
+    - raincityprogramming.com
+    - www.raincityprogramming.com
+  acme:
+    config:
+      - http01:
+          ingressClass: nginx
+        domains:
+          - raincityprogramming.com
+          - www.raincityprogramming.com
