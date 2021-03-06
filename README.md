@@ -28,6 +28,12 @@ The following list gives the class names, professors, and Udemy links to find th
 
 [Docker and Kubernetes: The Complete Guide](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/) - By Stephen Grider
 
+[Microservices with Node JS and React](https://www.udemy.com/course/microservices-with-node-js-and-react/) - By Stephen Grider
+
+[ASPNET Core and Angular from Scratch](https://www.udemy.com/course/build-an-app-with-aspnet-core-and-angular-from-scratch/) - By Neil Cummings
+
+[Complete C# Masterclass](https://www.udemy.com/course/complete-csharp-masterclass/) - By Densi Panjuta
+
 ### Cloning A Section
 
 If you ever need to clone a section use the following instructions (from stack overflow)
