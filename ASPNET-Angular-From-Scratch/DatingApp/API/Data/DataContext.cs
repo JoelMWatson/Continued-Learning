@@ -5,12 +5,33 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DatingApp.API.Data
 {
-  public class DataContext : DbContext
-  {
-    public DataContext(DbContextOptions options) : base(options)
+    public class DataContext : DbContext
     {
-    }
+        public DataContext(DbContextOptions options) : base(options)
+        {
+        }
 
-    public DbSet<AppUser> Users { get; set;}
-  }
+        public DbSet<AppUser> Users { get; set; }
+        public DbSet<AppUser> Likes { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+
+            builder.Entity<UserLike>()
+              .HasKey(k => new { k.SourceUserId, k.LikedUserId });
+
+            builder.Entity<UserLike>()
+              .HasOne(s => s.SourceUser)
+              .WithMany(l => l.LikedUsers)
+              .HasForeignKey(k => k.SourceUserId)
+              .OnDelete(DeleteBehavior.Cascade);
+
+            builder.Entity<UserLike>()
+              .HasOne(s => s.LikedUser)
+              .WithMany(l => l.LikedByUsers)
+              .HasForeignKey(k => k.LikedUserId)
+              .OnDelete(DeleteBehavior.Cascade);
+        }
+    }
 }
