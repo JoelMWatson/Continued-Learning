@@ -9,6 +9,10 @@ class Queue {
     this.data = [];
   }
 
+  peek() {
+    return this.data[this.data.length-1];
+  }
+
   add(record) {
     this.data.unshift(record);
   }
