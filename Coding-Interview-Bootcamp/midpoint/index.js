@@ -12,6 +12,14 @@
 //   l.insertLast('c')
 //   midpoint(l); // returns { data: 'b' }
 
-function midpoint(list) {}
+function midpoint(list) {
+  let tortois = list.head;
+  let hare = list.head;
+  while(hare && hare.next && hare.next.next) {
+    tortois = tortois.next;
+    hare = hare.next.next;
+  }
+  return tortois
+}
 
 module.exports = midpoint;
