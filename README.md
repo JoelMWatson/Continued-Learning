@@ -1,6 +1,6 @@
 # Continued Learning
 
-This repository holds the projects I've worked/am working on while going through Udemy courses. I placed it all in one repository so I wouldn't have a bunch of them filled with udemy code. I do not claim to have thought up these projects on my own. I wrote them following tutorials and doing challenges to become a better developer.
+This repository holds the projects I've worked/am working on while going through Udemy courses. I placed it all in one repository so I wouldn't have a bunch of them filled with udemy code. I do not claim to have thought up these projects on my own. I wrote them following tutorials and doing challenges to try out new technologies and learn more.
 
 The following list gives the class names, professors, and Udemy links to find the associated courses for the code in this repo.
 
@@ -28,11 +28,14 @@ The following list gives the class names, professors, and Udemy links to find th
 
 [Docker and Kubernetes: The Complete Guide](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/) - By Stephen Grider
 
-[Microservices with Node JS and React](https://www.udemy.com/course/microservices-with-node-js-and-react/) - By Stephen Grider
+[Microservices with Node JS and React](https://www.udemy.com/course/microservices-with-node-js-and-react/)(in-progress) - By Stephen Grider
 
-[ASPNET Core and Angular from Scratch](https://www.udemy.com/course/build-an-app-with-aspnet-core-and-angular-from-scratch/) - By Neil Cummings
+[ASPNET Core and Angular from Scratch](https://www.udemy.com/course/build-an-app-with-aspnet-core-and-angular-from-scratch/)(in-progress) - By Neil Cummings
 
-[Complete C# Masterclass](https://www.udemy.com/course/complete-csharp-masterclass/) - By Densi Panjuta
+[Complete C# Masterclass](https://www.udemy.com/course/complete-csharp-masterclass/)(To close Java/Got Bored) - By Densi Panjuta
+
+[Coding Interview Bootcamp](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/) - By Stephen Grider
+
 
 ### Cloning A Section
 
