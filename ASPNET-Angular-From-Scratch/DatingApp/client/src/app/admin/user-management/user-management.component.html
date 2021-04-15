@@ -8,7 +8,9 @@
     <tr *ngFor="let user of users">
       <td>{{user.username}}</td>
       <td>{{user.roles}}</td>
-      <td><button class="btn btn-info">Edit Roles</button></td>
+      <td>
+        <div><button (click)="openRolesModal(user)" class="btn btn-info">Edit Roles</button></div>
+      </td>
     </tr>
   </table>
 </div>
