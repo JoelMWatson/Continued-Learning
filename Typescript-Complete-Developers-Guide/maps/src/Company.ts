@@ -1,5 +1,5 @@
 import faker from 'faker';
-import { Mappable } from './Mappable';
+import { Mappable } from './CustomMap';
 
 export class Company implements Mappable {
   companyName: string;

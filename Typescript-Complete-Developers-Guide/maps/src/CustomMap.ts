@@ -1,4 +1,7 @@
-import {Mappable} from './Mappable';
+export interface Mappable {
+  location: google.maps.LatLngLiteral;
+  content(): string;
+}
 
 export class CustomMap {
   private googleMap: google.maps.Map;
