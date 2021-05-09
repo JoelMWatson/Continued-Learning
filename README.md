@@ -36,6 +36,10 @@ The following list gives the class names, professors, and Udemy links to find th
 
 [Coding Interview Bootcamp](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/) - By Stephen Grider
 
+[Typescript: Complete Developers Guide](https://www.udemy.com/course/typescript-the-complete-developers-guide/) - By Stephen Grider
+
+[Machine Learning with Javascript](https://www.udemy.com/course/machine-learning-with-javascript/) - By Stephen Grider
+
 
 ### Cloning A Section
 
