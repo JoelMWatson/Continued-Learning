@@ -1,10 +1,10 @@
 require('@tensorflow/tfjs-node')
 const tf = require('@tensorflow/tfjs');
 const LinearRegression = require('./linear-regression');
-const loadCSV = require('./load-csv');
+const loadCSV = require('../load-csv');
 const plot = require('node-remote-plot');
 
-let { features, labels, testFeatures, testLabels } = loadCSV('./cars.csv', {
+let { features, labels, testFeatures, testLabels } = loadCSV('../data/cars.csv', {
   shuffle: true,
   splitTest: 50,
   dataColumns: ['horsepower', 'weight', 'displacement'], // order matters in your predition function
