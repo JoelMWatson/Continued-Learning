@@ -1,0 +1,21 @@
+{
+  "name": "Todo App",
+  "short_name": "Todo",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#2A3443",
+  "description": "Awesome Vaadin Tutorial",
+  "theme_color": "#2A3443",
+  "icons": [
+    {
+      "src": "./img/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "types": "image/png"
+    },
+    {
+      "src": "./img/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "types": "image/png"
+    }
+  ]
+}
