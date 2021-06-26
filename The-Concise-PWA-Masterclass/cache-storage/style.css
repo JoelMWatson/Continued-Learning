@@ -1,0 +1,15 @@
+
+body {
+  padding: 1rem;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: #2D91F8;
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
