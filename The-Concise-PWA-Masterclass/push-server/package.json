@@ -1,0 +1,14 @@
+{
+  "name": "push-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node push-server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "web-push": "^3.4.4"
+  }
+}

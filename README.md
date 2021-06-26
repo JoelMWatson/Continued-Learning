@@ -40,6 +40,11 @@ The following list gives the class names, professors, and Udemy links to find th
 
 [Machine Learning with Javascript](https://www.udemy.com/course/machine-learning-with-javascript/) - By Stephen Grider
 
+[Machine Learning A-Z: Python & R](https://www.udemy.com/course/machinelearning/) - By Kirill Eremenko
+
+[LitElement-with-Redux-Tutorial](https://vaadin.com/learn/tutorials/lit-element) - By Marcus Hellberg
+
+[The Concise PWA Masterclass](https://www.udemy.com/course/progressive-web-apps/) - By Ray Viljoen
 
 ### Cloning A Section
 
