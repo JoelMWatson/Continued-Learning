@@ -4,9 +4,9 @@ This repository holds the projects I've worked/am working on while going through
 
 The following list gives the class names, professors, and Udemy links to find the associated courses for the code in this repo.
 KEY:
-A = Abandoned - Content was outdated and couldnt complete or too beginner and didn't want to
-C = Completed - 
-S = Stopped - Temporarily stopped but still intend to complete
+- A = Abandoned - Content was outdated and couldnt complete or too beginner and didn't want to
+- C = Completed - 
+- S = Stopped - Temporarily stopped but still intend to complete
 
 - [Advanced CSS and Sass](https://www.udemy.com/course/advanced-css-and-sass/)(C) - By Jonas Schmedtmann
 - [ASPNET Core and Angular from Scratch](https://www.udemy.com/course/build-an-app-with-aspnet-core-and-angular-from-scratch/)(C) - By Neil Cummings
