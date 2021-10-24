@@ -144,6 +144,9 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# Windows Executables
+*.exe
+
 # End of https://www.gitignore.io/api/vim,osx,node,linux,windows
 node_modules
 
