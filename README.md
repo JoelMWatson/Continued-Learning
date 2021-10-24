@@ -6,6 +6,8 @@ The following list gives the class names, professors, and Udemy links to find th
 
 [Advanced CSS and Sass: Flexbox, Grid, Animations and More!](https://www.udemy.com/course/advanced-css-and-sass/) - By Jonas Schmedtmann
 
+[Advanced C Programming Course](https://www.udemy.com/course/advanced-c-programming-course/) - By Jason Fedin
+
 [Build Responsive Real World Websites with HTML5 and CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) - By Jonas Schmedtmann
 
 [Java Programming Masterclass for Software Developers](https://www.udemy.com/course/java-the-complete-java-developer-course/) - By Tim Buchalka
