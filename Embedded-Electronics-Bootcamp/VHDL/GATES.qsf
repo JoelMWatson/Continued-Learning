@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CEBA4F17C6
-set_global_assignment -name TOP_LEVEL_ENTITY ALU
+set_global_assignment -name TOP_LEVEL_ENTITY DFF_8
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 20.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "01:44:23  DECEMBER 19, 2021"
 set_global_assignment -name LAST_QUARTUS_VERSION "20.1.0 Lite Edition"
@@ -70,8 +70,13 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE ADDITION.vwf
 set_global_assignment -name BDF_FILE ADDITION_BUS.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE ADDITION_BUS.vwf
 set_global_assignment -name VHDL_FILE ALU.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE ALU.vwf
+set_global_assignment -name VHDL_FILE SR_LATCH.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE SR_LATCH.vwf
+set_global_assignment -name VHDL_FILE D_LATCH.vhd
+set_global_assignment -name VHDL_FILE DFF_8.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name VECTOR_WAVEFORM_FILE ALU.vwf
+set_global_assignment -name VECTOR_WAVEFORM_FILE DFF_8.vwf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -1,17 +1,17 @@
-Fitter Status : Successful - Wed Dec 22 17:25:25 2021
+Fitter Status : Successful - Thu Dec 23 23:22:53 2021
 Quartus Prime Version : 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 Revision Name : GATES
-Top-level Entity Name : ALU
+Top-level Entity Name : DFF_8
 Family : Cyclone V
 Device : 5CEBA4F17C6
 Timing Models : Final
-Logic utilization (in ALMs) : 65 / 18,480 ( < 1 % )
-Total registers : 0
-Total pins : 28 / 128 ( 22 % )
+Logic utilization (in ALMs) : 3 / 18,480 ( < 1 % )
+Total registers : 8
+Total pins : 18 / 128 ( 14 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 3,153,920 ( 0 % )
 Total RAM Blocks : 0 / 308 ( 0 % )
-Total DSP Blocks : 1 / 66 ( 2 % )
+Total DSP Blocks : 0 / 66 ( 0 % )
 Total HSSI RX PCSs : 0
 Total HSSI PMA RX Deserializers : 0
 Total HSSI TX PCSs : 0

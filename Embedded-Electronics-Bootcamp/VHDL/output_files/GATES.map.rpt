@@ -1,5 +1,5 @@
 Analysis & Synthesis report for GATES
-Wed Dec 22 17:24:47 2021
+Thu Dec 23 23:22:36 2021
 Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
 
 
@@ -13,14 +13,10 @@ Quartus Prime Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. Analysis & Synthesis DSP Block Usage Summary
-  9. User-Specified and Inferred Latches
- 10. General Register Statistics
- 11. Multiplexer Restructuring Statistics (Restructuring Performed)
- 12. Parameter Settings for Inferred Entity Instance: lpm_divide:Div0
- 13. Post-Synthesis Netlist Statistics for Top Partition
- 14. Elapsed Time Per Partition
- 15. Analysis & Synthesis Messages
+  8. General Register Statistics
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -47,17 +43,17 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Dec 22 17:24:47 2021       ;
+; Analysis & Synthesis Status     ; Successful - Thu Dec 23 23:22:36 2021       ;
 ; Quartus Prime Version           ; 20.1.0 Build 711 06/05/2020 SJ Lite Edition ;
 ; Revision Name                   ; GATES                                       ;
-; Top-level Entity Name           ; ALU                                         ;
+; Top-level Entity Name           ; DFF_8                                       ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
-; Total registers                 ; 0                                           ;
-; Total pins                      ; 28                                          ;
+; Total registers                 ; 8                                           ;
+; Total pins                      ; 18                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
-; Total DSP Blocks                ; 1                                           ;
+; Total DSP Blocks                ; 0                                           ;
 ; Total HSSI RX PCSs              ; 0                                           ;
 ; Total HSSI PMA RX Deserializers ; 0                                           ;
 ; Total HSSI TX PCSs              ; 0                                           ;
@@ -73,7 +69,7 @@ https://fpgasoftware.intel.com/eula.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CEBA4F17C6        ;                    ;
-; Top-level entity name                                                           ; ALU                ; GATES              ;
+; Top-level entity name                                                           ; DFF_8              ; GATES              ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -170,84 +166,50 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                            ; Library ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------+---------+
-; ALU.vhd                          ; yes             ; User VHDL File               ; C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/ALU.vhd                    ;         ;
-; lpm_divide.tdf                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/lpm_divide.tdf                                   ;         ;
-; abs_divider.inc                  ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/abs_divider.inc                                  ;         ;
-; sign_div_unsign.inc              ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/sign_div_unsign.inc                              ;         ;
-; aglobal201.inc                   ; yes             ; Megafunction                 ; c:/intelfpga_lite/20.1/quartus/libraries/megafunctions/aglobal201.inc                                   ;         ;
-; db/lpm_divide_9am.tdf            ; yes             ; Auto-Generated Megafunction  ; C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/db/lpm_divide_9am.tdf      ;         ;
-; db/sign_div_unsign_fkh.tdf       ; yes             ; Auto-Generated Megafunction  ; C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/db/sign_div_unsign_fkh.tdf ;         ;
-; db/alt_u_div_4te.tdf             ; yes             ; Auto-Generated Megafunction  ; C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/db/alt_u_div_4te.tdf       ;         ;
-+----------------------------------+-----------------+------------------------------+---------------------------------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                  ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                           ; Library ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------+---------+
+; DFF_8.vhd                        ; yes             ; User VHDL File  ; C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/DFF_8.vhd ;         ;
++----------------------------------+-----------------+-----------------+----------------------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary               ;
-+---------------------------------------------+-------------+
-; Resource                                    ; Usage       ;
-+---------------------------------------------+-------------+
-; Estimate of Logic utilization (ALMs needed) ; 64          ;
-;                                             ;             ;
-; Combinational ALUT usage for logic          ; 123         ;
-;     -- 7 input functions                    ; 1           ;
-;     -- 6 input functions                    ; 4           ;
-;     -- 5 input functions                    ; 45          ;
-;     -- 4 input functions                    ; 26          ;
-;     -- <=3 input functions                  ; 47          ;
-;                                             ;             ;
-; Dedicated logic registers                   ; 0           ;
-;                                             ;             ;
-; I/O pins                                    ; 28          ;
-;                                             ;             ;
-; Total DSP Blocks                            ; 1           ;
-;                                             ;             ;
-; Maximum fan-out node                        ; OP[0]~input ;
-; Maximum fan-out                             ; 22          ;
-; Total fan-out                               ; 546         ;
-; Average fan-out                             ; 3.03        ;
-+---------------------------------------------+-------------+
++---------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary             ;
++---------------------------------------------+-----------+
+; Resource                                    ; Usage     ;
++---------------------------------------------+-----------+
+; Estimate of Logic utilization (ALMs needed) ; 4         ;
+;                                             ;           ;
+; Combinational ALUT usage for logic          ; 0         ;
+;     -- 7 input functions                    ; 0         ;
+;     -- 6 input functions                    ; 0         ;
+;     -- 5 input functions                    ; 0         ;
+;     -- 4 input functions                    ; 0         ;
+;     -- <=3 input functions                  ; 0         ;
+;                                             ;           ;
+; Dedicated logic registers                   ; 8         ;
+;                                             ;           ;
+; I/O pins                                    ; 18        ;
+;                                             ;           ;
+; Total DSP Blocks                            ; 0         ;
+;                                             ;           ;
+; Maximum fan-out node                        ; CLK~input ;
+; Maximum fan-out                             ; 8         ;
+; Total fan-out                               ; 50        ;
+; Average fan-out                             ; 1.14      ;
++---------------------------------------------+-----------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                                         ;
-+----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; Compilation Hierarchy Node             ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                  ; Entity Name         ; Library Name ;
-+----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |ALU                                   ; 123 (41)            ; 0 (0)                     ; 0                 ; 1          ; 28   ; 0            ; |ALU                                                                                                 ; ALU                 ; work         ;
-;    |lpm_divide:Div0|                   ; 82 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Div0                                                                                 ; lpm_divide          ; work         ;
-;       |lpm_divide_9am:auto_generated|  ; 82 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Div0|lpm_divide_9am:auto_generated                                                   ; lpm_divide_9am      ; work         ;
-;          |sign_div_unsign_fkh:divider| ; 82 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Div0|lpm_divide_9am:auto_generated|sign_div_unsign_fkh:divider                       ; sign_div_unsign_fkh ; work         ;
-;             |alt_u_div_4te:divider|    ; 82 (82)             ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |ALU|lpm_divide:Div0|lpm_divide_9am:auto_generated|sign_div_unsign_fkh:divider|alt_u_div_4te:divider ; alt_u_div_4te       ; work         ;
-+----------------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+------------------------------------------------------------------------------------------------------+---------------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; |DFF_8                     ; 0 (0)               ; 8 (8)                     ; 0                 ; 0          ; 18   ; 0            ; |DFF_8              ; DFF_8       ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
-
-
-+-----------------------------------------------+
-; Analysis & Synthesis DSP Block Usage Summary  ;
-+---------------------------------+-------------+
-; Statistic                       ; Number Used ;
-+---------------------------------+-------------+
-; Independent 9x9                 ; 1           ;
-; Total number of DSP blocks      ; 1           ;
-;                                 ;             ;
-; Fixed Point Unsigned Multiplier ; 1           ;
-+---------------------------------+-------------+
-
-
-+---------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                               ;
-+----------------------------------------------------+---------------------+------------------------+
-; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
-+----------------------------------------------------+---------------------+------------------------+
-; OVERFLOW[8]                                        ; Mux8                ; yes                    ;
-; Number of user-specified and inferred latches = 1  ;                     ;                        ;
-+----------------------------------------------------+---------------------+------------------------+
-Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
 +------------------------------------------------------+
@@ -255,78 +217,28 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 0     ;
+; Total registers                              ; 8     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Clear ; 8     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 0     ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                           ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 8:1                ; 7 bits    ; 35 LEs        ; 28 LEs               ; 7 LEs                  ; No         ; |ALU|Mux6                  ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-
-
-+------------------------------------------------------------------+
-; Parameter Settings for Inferred Entity Instance: lpm_divide:Div0 ;
-+------------------------+----------------+------------------------+
-; Parameter Name         ; Value          ; Type                   ;
-+------------------------+----------------+------------------------+
-; LPM_WIDTHN             ; 8              ; Untyped                ;
-; LPM_WIDTHD             ; 8              ; Untyped                ;
-; LPM_NREPRESENTATION    ; UNSIGNED       ; Untyped                ;
-; LPM_DREPRESENTATION    ; UNSIGNED       ; Untyped                ;
-; LPM_PIPELINE           ; 0              ; Untyped                ;
-; LPM_REMAINDERPOSITIVE  ; TRUE           ; Untyped                ;
-; MAXIMIZE_SPEED         ; 5              ; Untyped                ;
-; CBXI_PARAMETER         ; lpm_divide_9am ; Untyped                ;
-; CARRY_CHAIN            ; MANUAL         ; Untyped                ;
-; OPTIMIZE_FOR_SPEED     ; 5              ; Untyped                ;
-; AUTO_CARRY_CHAINS      ; ON             ; AUTO_CARRY             ;
-; IGNORE_CARRY_BUFFERS   ; OFF            ; IGNORE_CARRY           ;
-; AUTO_CASCADE_CHAINS    ; ON             ; AUTO_CASCADE           ;
-; IGNORE_CASCADE_BUFFERS ; OFF            ; IGNORE_CASCADE         ;
-+------------------------+----------------+------------------------+
-Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
-+-----------------------+-----------------------------+
-; Type                  ; Count                       ;
-+-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 123                         ;
-;     arith             ; 50                          ;
-;         0 data inputs ; 10                          ;
-;         1 data inputs ; 2                           ;
-;         2 data inputs ; 5                           ;
-;         3 data inputs ; 8                           ;
-;         5 data inputs ; 25                          ;
-;     extend            ; 1                           ;
-;         7 data inputs ; 1                           ;
-;     normal            ; 63                          ;
-;         2 data inputs ; 7                           ;
-;         3 data inputs ; 9                           ;
-;         4 data inputs ; 23                          ;
-;         5 data inputs ; 20                          ;
-;         6 data inputs ; 4                           ;
-;     shared            ; 9                           ;
-;         0 data inputs ; 3                           ;
-;         2 data inputs ; 3                           ;
-;         4 data inputs ; 3                           ;
-; arriav_mac            ; 1                           ;
-; boundary_port         ; 28                          ;
-;                       ;                             ;
-; Max LUT depth         ; 15.70                       ;
-; Average LUT depth     ; 10.81                       ;
-+-----------------------+-----------------------------+
++-------------------+---------------------------------+
+; Type              ; Count                           ;
++-------------------+---------------------------------+
+; arriav_ff         ; 8                               ;
+;     CLR           ; 8                               ;
+; boundary_port     ; 18                              ;
+;                   ;                                 ;
+; Max LUT depth     ; 0.00                            ;
+; Average LUT depth ; 0.00                            ;
++-------------------+---------------------------------+
 
 
 +-------------------------------+
@@ -334,7 +246,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -344,7 +256,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.0 Build 711 06/05/2020 SJ Lite Edition
-    Info: Processing started: Wed Dec 22 17:24:24 2021
+    Info: Processing started: Thu Dec 23 23:22:27 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off GATES -c GATES
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -373,35 +285,27 @@ Info (12021): Found 1 design units, including 1 entities, in source file additio
 Info (12021): Found 2 design units, including 1 entities, in source file alu.vhd
     Info (12022): Found design unit 1: ALU-behavioral File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/ALU.vhd Line: 16
     Info (12023): Found entity 1: ALU File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/ALU.vhd Line: 6
-Info (12127): Elaborating entity "ALU" for the top level hierarchy
-Warning (10631): VHDL Process Statement warning at ALU.vhd(23): inferring latch(es) for signal or variable "OVERFLOW", which holds its previous value in one or more paths through the process File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/ALU.vhd Line: 23
-Info (10041): Inferred latch for "OVERFLOW[8]" at ALU.vhd(23) File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/ALU.vhd Line: 23
-Info (278001): Inferred 1 megafunctions from design logic
-    Info (278004): Inferred divider/modulo megafunction ("lpm_divide") from the following logic: "Div0" File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/ALU.vhd Line: 38
-Info (12130): Elaborated megafunction instantiation "lpm_divide:Div0" File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/ALU.vhd Line: 38
-Info (12133): Instantiated megafunction "lpm_divide:Div0" with the following parameter: File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/ALU.vhd Line: 38
-    Info (12134): Parameter "LPM_WIDTHN" = "8"
-    Info (12134): Parameter "LPM_WIDTHD" = "8"
-    Info (12134): Parameter "LPM_NREPRESENTATION" = "UNSIGNED"
-    Info (12134): Parameter "LPM_DREPRESENTATION" = "UNSIGNED"
-Info (12021): Found 1 design units, including 1 entities, in source file db/lpm_divide_9am.tdf
-    Info (12023): Found entity 1: lpm_divide_9am File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/db/lpm_divide_9am.tdf Line: 25
-Info (12021): Found 1 design units, including 1 entities, in source file db/sign_div_unsign_fkh.tdf
-    Info (12023): Found entity 1: sign_div_unsign_fkh File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/db/sign_div_unsign_fkh.tdf Line: 25
-Info (12021): Found 1 design units, including 1 entities, in source file db/alt_u_div_4te.tdf
-    Info (12023): Found entity 1: alt_u_div_4te File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/db/alt_u_div_4te.tdf Line: 23
+Info (12021): Found 2 design units, including 1 entities, in source file sr_latch.vhd
+    Info (12022): Found design unit 1: SR_LATCH-Behavioral File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/SR_LATCH.vhd Line: 13
+    Info (12023): Found entity 1: SR_LATCH File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/SR_LATCH.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file d_latch.vhd
+    Info (12022): Found design unit 1: D_LATCH-Behavioral File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/D_LATCH.vhd Line: 12
+    Info (12023): Found entity 1: D_LATCH File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/D_LATCH.vhd Line: 4
+Info (12021): Found 2 design units, including 1 entities, in source file dff_8.vhd
+    Info (12022): Found design unit 1: DFF_8-Behavioral File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/DFF_8.vhd Line: 13
+    Info (12023): Found entity 1: DFF_8 File: C:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/VHDL/DFF_8.vhd Line: 4
+Info (12127): Elaborating entity "DFF_8" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 152 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 19 input pins
-    Info (21059): Implemented 9 output pins
-    Info (21061): Implemented 123 logic cells
-    Info (21062): Implemented 1 DSP elements
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4864 megabytes
-    Info: Processing ended: Wed Dec 22 17:24:47 2021
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:45
+Info (21057): Implemented 26 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 10 input pins
+    Info (21059): Implemented 8 output pins
+    Info (21061): Implemented 8 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4843 megabytes
+    Info: Processing ended: Thu Dec 23 23:22:36 2021
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:22
 
 

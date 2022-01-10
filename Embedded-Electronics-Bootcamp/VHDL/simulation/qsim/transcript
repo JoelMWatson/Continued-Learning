@@ -1,46 +1,52 @@
 # do GATES.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:02:59 on Dec 22,2021
+# Start time: 23:25:02 on Dec 23,2021
 # vcom -work work GATES.vho 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package altera_lnsim_components
 # -- Loading package VITAL_Timing
 # -- Loading package VITAL_Primitives
+# -- Loading package dffeas_pack
+# -- Loading package altera_primitives_components
+# -- Loading package altera_lnsim_components
 # -- Loading package cyclonev_atom_pack
 # -- Loading package cyclonev_components
-# -- Compiling entity ALU
-# -- Compiling architecture structure of ALU
-# End time: 17:02:59 on Dec 22,2021, Elapsed time: 0:00:00
+# -- Compiling entity DFF_8
+# -- Compiling architecture structure of DFF_8
+# End time: 23:25:02 on Dec 23,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 17:02:59 on Dec 22,2021
-# vcom -work work ALU.vwf.vht 
+# Start time: 23:25:03 on Dec 23,2021
+# vcom -work work DFF_8.vwf.vht 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Compiling entity ALU_vhd_vec_tst
-# -- Compiling architecture ALU_arch of ALU_vhd_vec_tst
-# End time: 17:03:00 on Dec 22,2021, Elapsed time: 0:00:01
+# -- Compiling entity DFF_8_vhd_vec_tst
+# -- Compiling architecture DFF_8_arch of DFF_8_vhd_vec_tst
+# End time: 23:25:03 on Dec 23,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.ALU_vhd_vec_tst 
-# Start time: 17:03:00 on Dec 22,2021
+# vsim -c -t 1ps -L cyclonev -L altera -L altera_mf -L 220model -L sgate -L altera_lnsim work.DFF_8_vhd_vec_tst 
+# Start time: 23:25:03 on Dec 23,2021
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
-# Loading work.alu_vhd_vec_tst(alu_arch)
-# Loading altera_lnsim.altera_lnsim_components
+# Loading work.dff_8_vhd_vec_tst(dff_8_arch)
 # Loading ieee.vital_timing(body)
 # Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading altera_lnsim.altera_lnsim_components
 # Loading cyclonev.cyclonev_atom_pack(body)
 # Loading cyclonev.cyclonev_components
-# Loading work.alu(structure)
+# Loading work.dff_8(structure)
 # Loading ieee.std_logic_arith(body)
 # Loading cyclonev.cyclonev_io_obuf(arch)
 # Loading cyclonev.cyclonev_io_ibuf(arch)
+# Loading cyclonev.cyclonev_clkena(behavior)
+# Loading altera.dffeas(vital_dffeas)
 # Loading cyclonev.cyclonev_lcell_comb(vital_lcell_comb)
-# after#32
-# End time: 17:03:01 on Dec 22,2021, Elapsed time: 0:00:01
+# after#34
+# End time: 23:25:03 on Dec 23,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0

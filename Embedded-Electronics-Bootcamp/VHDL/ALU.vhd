@@ -8,7 +8,7 @@ port
 (
 A,B : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
 OP : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
-RESULT: OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+RESULT : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
 CARRYOUT : OUT STD_LOGIC
 );
 end ALU;
@@ -32,9 +32,11 @@ ALU_RESULT <= A-B;
 -- Extend the vector by 1 bit
 OVERFLOW <= ('0' & A) - ('0' & B);
 when "010" => -- Multiply
+-- Cast to int for multiplication
 ALU_RESULT <= STD_LOGIC_VECTOR(TO_UNSIGNED(TO_INTEGER(UNSIGNED(A)) * TO_INTEGER(UNSIGNED(B)),8));
 
 when "011" => -- Divide
+-- Cast to int for division
 ALU_RESULT <= STD_LOGIC_VECTOR(TO_UNSIGNED(TO_INTEGER(UNSIGNED(A)) / TO_INTEGER(UNSIGNED(B)),8));
 
 when "100" => -- XOR
@@ -48,7 +50,7 @@ else
 ALU_RESULT <= x"00";
 end if;
 when "111" => -- LESS THAN
-if (A<B) then
+if (A>B) then
 ALU_RESULT <= x"01";
 else 
 ALU_RESULT <= x"00";
@@ -56,7 +58,7 @@ end if;
 when others =>
 ALU_RESULT <= A;
 -- Extend the vector by 1 bit
-OVERFLOW <= ('0' & A) + ('0' & B);
+OVERFLOW <= ('0' & A);
 end case;
 end process;
 
