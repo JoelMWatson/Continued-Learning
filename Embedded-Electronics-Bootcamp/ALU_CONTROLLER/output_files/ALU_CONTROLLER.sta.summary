@@ -1,0 +1,165 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'FSM:inst14|WRC'
+Slack : -13.799
+TNS   : -78.784
+
+Type  : Slow 1100mV 85C Model Setup 'FSM:inst14|CUR_STATE.PROC'
+Slack : -4.478
+TNS   : -8.254
+
+Type  : Slow 1100mV 85C Model Setup 'CLOCK'
+Slack : -2.598
+TNS   : -7.054
+
+Type  : Slow 1100mV 85C Model Hold 'CLOCK'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'FSM:inst14|WRC'
+Slack : 0.900
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'FSM:inst14|CUR_STATE.PROC'
+Slack : 2.936
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FSM:inst14|CUR_STATE.FETCH'
+Slack : -2.225
+TNS   : -26.952
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FSM:inst14|WRC'
+Slack : -0.394
+TNS   : -4.215
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.394
+TNS   : -2.649
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'FSM:inst14|CUR_STATE.PROC'
+Slack : 0.443
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'FSM:inst14|WRC'
+Slack : -14.237
+TNS   : -80.005
+
+Type  : Slow 1100mV 0C Model Setup 'FSM:inst14|CUR_STATE.PROC'
+Slack : -4.406
+TNS   : -8.021
+
+Type  : Slow 1100mV 0C Model Setup 'CLOCK'
+Slack : -2.418
+TNS   : -6.414
+
+Type  : Slow 1100mV 0C Model Hold 'CLOCK'
+Slack : 0.335
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'FSM:inst14|WRC'
+Slack : 0.915
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'FSM:inst14|CUR_STATE.PROC'
+Slack : 2.819
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FSM:inst14|CUR_STATE.FETCH'
+Slack : -2.225
+TNS   : -26.770
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FSM:inst14|WRC'
+Slack : -0.394
+TNS   : -4.186
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.394
+TNS   : -3.156
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'FSM:inst14|CUR_STATE.PROC'
+Slack : 0.448
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'FSM:inst14|WRC'
+Slack : -6.793
+TNS   : -40.365
+
+Type  : Fast 1100mV 85C Model Setup 'FSM:inst14|CUR_STATE.PROC'
+Slack : -2.571
+TNS   : -4.860
+
+Type  : Fast 1100mV 85C Model Setup 'CLOCK'
+Slack : -1.659
+TNS   : -3.674
+
+Type  : Fast 1100mV 85C Model Hold 'CLOCK'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'FSM:inst14|WRC'
+Slack : 0.318
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'FSM:inst14|CUR_STATE.PROC'
+Slack : 2.250
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FSM:inst14|CUR_STATE.FETCH'
+Slack : -1.702
+TNS   : -13.872
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.321
+TNS   : -0.585
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FSM:inst14|WRC'
+Slack : 0.042
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'FSM:inst14|CUR_STATE.PROC'
+Slack : 0.424
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'FSM:inst14|WRC'
+Slack : -6.451
+TNS   : -37.477
+
+Type  : Fast 1100mV 0C Model Setup 'FSM:inst14|CUR_STATE.PROC'
+Slack : -2.489
+TNS   : -4.679
+
+Type  : Fast 1100mV 0C Model Setup 'CLOCK'
+Slack : -1.150
+TNS   : -2.544
+
+Type  : Fast 1100mV 0C Model Hold 'CLOCK'
+Slack : 0.165
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'FSM:inst14|WRC'
+Slack : 0.279
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'FSM:inst14|CUR_STATE.PROC'
+Slack : 2.220
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FSM:inst14|CUR_STATE.FETCH'
+Slack : -1.702
+TNS   : -13.688
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'CLOCK'
+Slack : -0.344
+TNS   : -0.714
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FSM:inst14|WRC'
+Slack : 0.066
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'FSM:inst14|CUR_STATE.PROC'
+Slack : 0.438
+TNS   : 0.000
+
+------------------------------------------------------------

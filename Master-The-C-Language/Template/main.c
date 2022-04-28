@@ -6,8 +6,6 @@ int main()
   scanf("%d", &i);
   printf("\nYou Entered: %d", i);
 
-  // Temp work around till I get a better way to get console to wait
-  printf("\nEnter any number to exit...");
-  scanf("%d", &i);
+  system("pause");
   return 0;
 }

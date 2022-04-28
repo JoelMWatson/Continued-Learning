@@ -8,39 +8,40 @@ The following list gives the class names, professors, and Udemy links to find th
 
 ## Course List
 
-### KEY:
+### Actively In Progress
 
-- A = Abandoned - Content was outdated and couldn't complete or too beginner and didn't want to
-- C = Completed - Completed all course content
-- S = Stopped - Temporarily stopped but still intend to complete
+- [Advanced C Programming Course](https://www.udemy.com/course/advanced-c-programming-course/) - By Jason Fedin
+- [Rust Programming Language](https://www.udemy.com/course/rust-lang/) - By Dmitri Nesteruk
 
-### List
+### Temporarily Stopped
 
-- [Advanced CSS and Sass](https://www.udemy.com/course/advanced-css-and-sass/)**(C)** - By Jonas Schmedtmann
-- [ASPNET Core and Angular from Scratch](https://www.udemy.com/course/build-an-app-with-aspnet-core-and-angular-from-scratch/)**(C)** - By Neil Cummings
-- [Coding Interview Bootcamp](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/)**(C)** - By Stephen Grider
-- [Complete C# Masterclass](https://www.udemy.com/course/complete-csharp-masterclass/)**(A)** - By Densi Panjuta
-- [Complete Java Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/)**(C)** - By Tim Buchalka
-- [Complete JavaScript Course](https://www.udemy.com/course/the-complete-javascript-course/)**(C)** - By Jonas Schmedtmann
-- [Complete Node Developer Course](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/)**(C)** - By Andrew Mead
-- [Docker and Kubernetes: The Complete Guide](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/)**(C)** - By Stephen Grider
-- [Electron for Desktop Apps](https://www.udemy.com/course/electron-react-tutorial/)**(S)** - By Stephen Grider
-- [Ethereum and Solidity](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/)**(C)** - By Stephen Grider
-- [GraphQL with React Course](https://www.udemy.com/course/graphql-with-react-course/)**(C)** - By Stephen Grider
-- [LitElement-with-Redux-Tutorial](https://vaadin.com/learn/tutorials/lit-element)**(C)** - By Marcus Hellberg
-- [Machine Learning A-Z: Python & R](https://www.udemy.com/course/machinelearning/)**(S)** - By Kirill Eremenko
-- [Machine Learning with Javascript](https://www.udemy.com/course/machine-learning-with-javascript/)**(C)** - By Stephen Grider
-- [Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)(I) - By Jason Fedin
-- [Microservices with Node JS and React](https://www.udemy.com/course/microservices-with-node-js-and-react/)**(S)** - By Stephen Grider
-- [Modern React with Redux](https://www.udemy.com/course/react-redux/)**(C)** - By Stephen Grider
-- [React Native + Hooks Course](https://www.udemy.com/course/the-complete-react-native-and-redux-course/)**(C)** - By Stephen Grider
-- [Responsive-Websites-HTML5-CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/)**(C)** - By Jonas Schmedtmann
-- [Rust Programming Language](https://www.udemy.com/course/rust-lang/)(I) - By Dmitri Nesteruk
-- [Spring 5 And Hibernate](https://www.udemy.com/course/spring-hibernate-tutorial/)**(C)** - By Chad Darby
-- [The Concise PWA Masterclass](https://www.udemy.com/course/progressive-web-apps/)**(S)** - By Ray Viljoen
-- [The Modern GraphQL Bootcamp](https://www.udemy.com/course/graphql-bootcamp/)**(C)** - By Andrew Mead
-- [Typescript: Complete Developers Guide](https://www.udemy.com/course/typescript-the-complete-developers-guide/)**(C)** - By Stephen Grider
-- [Vue - The Complete Guide](https://www.udemy.com/course/vuejs-2-the-complete-guide/)**(S)** - By Maximilian Schwarzmüller
+- [Electron for Desktop Apps](https://www.udemy.com/course/electron-react-tutorial/) - By Stephen Grider
+- [Machine Learning A-Z: Python & R](https://www.udemy.com/course/machinelearning/) - By Kirill Eremenko
+- [Microservices with Node JS and React](https://www.udemy.com/course/microservices-with-node-js-and-react/) - By Stephen Grider
+- [The Concise PWA Masterclass](https://www.udemy.com/course/progressive-web-apps/) - By Ray Viljoen
+- [Vue - The Complete Guide](https://www.udemy.com/course/vuejs-2-the-complete-guide/) - By Maximilian Schwarzmüller
+- [WebRTC-2021-Course](https://www.udemy.com/course/webrtc-2021-practical-course-build-your-own-app-with-react/) - By Marek Gryszkiewicz
+
+### Completed
+
+- [Advanced CSS and Sass](https://www.udemy.com/course/advanced-css-and-sass/) - By Jonas Schmedtmann
+- [ASPNET Core and Angular from Scratch](https://www.udemy.com/course/build-an-app-with-aspnet-core-and-angular-from-scratch/) - By Neil Cummings
+- [Coding Interview Bootcamp](https://www.udemy.com/course/coding-interview-bootcamp-algorithms-and-data-structure/) - By Stephen Grider
+- [Complete Java Masterclass](https://www.udemy.com/course/java-the-complete-java-developer-course/) - By Tim Buchalka
+- [Complete JavaScript Course](https://www.udemy.com/course/the-complete-javascript-course/) - By Jonas Schmedtmann
+- [Complete Node Developer Course](https://www.udemy.com/course/the-complete-nodejs-developer-course-2/) - By Andrew Mead
+- [Docker and Kubernetes: The Complete Guide](https://www.udemy.com/course/docker-and-kubernetes-the-complete-guide/) - By Stephen Grider
+- [Ethereum and Solidity](https://www.udemy.com/course/ethereum-and-solidity-the-complete-developers-guide/) - By Stephen Grider
+- [GraphQL with React Course](https://www.udemy.com/course/graphql-with-react-course/) - By Stephen Grider
+- [LitElement-with-Redux-Tutorial](https://vaadin.com/learn/tutorials/lit-element) - By Marcus Hellberg
+- [Machine Learning with Javascript](https://www.udemy.com/course/machine-learning-with-javascript/) - By Stephen Grider
+- [Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/) - By Jason Fedin
+- [Modern React with Redux](https://www.udemy.com/course/react-redux/) - By Stephen Grider
+- [React Native + Hooks Course](https://www.udemy.com/course/the-complete-react-native-and-redux-course/) - By Stephen Grider
+- [Responsive-Websites-HTML5-CSS3](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/) - By Jonas Schmedtmann
+- [Spring 5 And Hibernate](https://www.udemy.com/course/spring-hibernate-tutorial/) - By Chad Darby
+- [The Modern GraphQL Bootcamp](https://www.udemy.com/course/graphql-bootcamp/) - By Andrew Mead
+- [Typescript: Complete Developers Guide](https://www.udemy.com/course/typescript-the-complete-developers-guide/) - By Stephen Grider
 
 ## Cloning A Section
 

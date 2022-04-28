@@ -1,0 +1,295 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Joel/Projects/Continued-Learning/Embedded-Electronics-Bootcamp/ALU_CONTROLLER/simulation/qsim
+Ealu
+Z1 w1640367968
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 ^K2eeK[IVbX]]MLcdOEI91
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx8 cyclonev 19 cyclonev_components 0 22 GFL[QAd@dAZF:`jjOGn9>2
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 3dzZ?YU_4FC5UU0cTXRET1
+!i122 10
+R0
+Z9 8ALU_CONTROLLER.vho
+Z10 FALU_CONTROLLER.vho
+l0
+L37 1
+V[jWda4JXnGCMfilI63JWF1
+!s100 9EEVD`O?Y2d6IcPG5SQlP3
+Z11 OV;C;2020.1;71
+32
+Z12 !s110 1640367970
+!i10b 1
+Z13 !s108 1640367970.000000
+Z14 !s90 -work|work|ALU_CONTROLLER.vho|
+Z15 !s107 ALU_CONTROLLER.vho|
+!i113 1
+Z16 o-work work
+Z17 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+DEx4 work 3 alu 0 22 [jWda4JXnGCMfilI63JWF1
+!i122 10
+l460
+L78 3447
+Vm?D@UQ6J]GKc[XIiU>TfY3
+!s100 AI0X<eb_4ETEE]aI^QoMa0
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 1
+R16
+R17
+Ealu_vhd_vec_tst
+Z18 w1640367966
+R6
+R7
+!i122 11
+R0
+Z19 8ALUvwf.vwf.vht
+Z20 FALUvwf.vwf.vht
+l0
+Z21 L32 1
+Vhe@VmQBfo15M7z`66zg402
+!s100 9N9=bCocO2Kl?YK8nKJ8z2
+R11
+32
+R12
+!i10b 1
+R13
+Z22 !s90 -work|work|ALUvwf.vwf.vht|
+Z23 !s107 ALUvwf.vwf.vht|
+!i113 1
+R16
+R17
+Aalu_arch
+R6
+R7
+DEx4 work 15 alu_vhd_vec_tst 0 22 he@VmQBfo15M7z`66zg402
+!i122 11
+l51
+L34 155
+VG3WKYmnQbFKJYIP^J0Loo1
+!s100 TgBQ1lma=C>YOZWDIoPf42
+R11
+32
+R12
+!i10b 1
+R13
+R22
+R23
+!i113 1
+R16
+R17
+Edata_flow
+Z24 w1640383228
+R3
+R5
+R8
+R2
+Z25 DPx6 altera 11 dffeas_pack 0 22 H5F:RRfLz82T3`4>@b7mS3
+R4
+R6
+R7
+Z26 DPx6 altera 28 altera_primitives_components 0 22 VSD=32;3391kSOd?PDZYj3
+!i122 26
+R0
+R9
+R10
+l0
+Z27 L39 1
+Vbejc=NU926nfg1GFgiJn[1
+!s100 j3Jz50E0hfLVG1k>3g<df2
+R11
+32
+Z28 !s110 1640383229
+!i10b 1
+Z29 !s108 1640383229.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R3
+R5
+R8
+R2
+R25
+R4
+R6
+R7
+R26
+DEx4 work 9 data_flow 0 22 bejc=NU926nfg1GFgiJn[1
+!i122 26
+l575
+L125 4800
+V1V=4[:E=eokN59R<D<e`[0
+!s100 GeQ]cY4::2fD9M0BbVjnI1
+R11
+32
+R28
+!i10b 1
+R29
+R14
+R15
+!i113 1
+R16
+R17
+Edata_flow_vhd_vec_tst
+Z30 w1640383226
+R6
+R7
+!i122 27
+R0
+Z31 8DATA_FLOW.vwf.vht
+Z32 FDATA_FLOW.vwf.vht
+l0
+R21
+V5f]McZYO@<mn>mAG[io9P1
+!s100 iVzkXI@=TSCc:[KXcK86V1
+R11
+32
+R28
+!i10b 1
+R29
+Z33 !s90 -work|work|DATA_FLOW.vwf.vht|
+Z34 !s107 DATA_FLOW.vwf.vht|
+!i113 1
+R16
+R17
+Adata_flow_arch
+R6
+R7
+Z35 DEx4 work 21 data_flow_vhd_vec_tst 0 22 5f]McZYO@<mn>mAG[io9P1
+!i122 27
+l73
+L34 243
+VUbL5HXJdSD>`J2QHP^ITh2
+!s100 g=L_<;glF<=z?k11eKFkV3
+R11
+32
+R28
+!i10b 1
+R29
+R33
+R34
+!i113 1
+R16
+R17
+Efsm
+Z36 w1640380607
+R3
+R5
+R8
+R2
+R25
+R4
+R6
+R7
+R26
+!i122 22
+R0
+R9
+R10
+l0
+R27
+VW6^=YS[7m@V:>9[iA7bce1
+!s100 ]@DFZG`c7f4ZNQjcg^Rj<3
+R11
+32
+Z37 !s110 1640380609
+!i10b 1
+Z38 !s108 1640380609.000000
+R14
+R15
+!i113 1
+R16
+R17
+Astructure
+R3
+R5
+R8
+R2
+R25
+R4
+R6
+R7
+R26
+DEx4 work 3 fsm 0 22 W6^=YS[7m@V:>9[iA7bce1
+!i122 22
+l119
+L67 465
+VIZYAWKOnY5RozS?j<Rbgg2
+!s100 1:6miNFlRBOX6jHP7dLic0
+R11
+32
+R37
+!i10b 1
+R38
+R14
+R15
+!i113 1
+R16
+R17
+Efsm_vhd_vec_tst
+Z39 w1640380605
+R6
+R7
+!i122 23
+R0
+Z40 8FSM.vwf.vht
+Z41 FFSM.vwf.vht
+l0
+R21
+V_[d8XjLoWT4SG9bHCd@U^2
+!s100 iBeHTndn3mDZ[EV@OGmo<1
+R11
+32
+R37
+!i10b 1
+R38
+Z42 !s90 -work|work|FSM.vwf.vht|
+Z43 !s107 FSM.vwf.vht|
+!i113 1
+R16
+R17
+Afsm_arch
+R6
+R7
+DEx4 work 15 fsm_vhd_vec_tst 0 22 _[d8XjLoWT4SG9bHCd@U^2
+!i122 23
+l59
+L34 79
+V32O3JOL_DgVm92V8>TN1?2
+!s100 cQe?9cEE0lOP:Fk3VlhY60
+R11
+32
+R37
+!i10b 1
+R38
+R42
+R43
+!i113 1
+R16
+R17
