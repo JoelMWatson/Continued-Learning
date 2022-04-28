@@ -10,8 +10,8 @@ The following list gives the class names, professors, and Udemy links to find th
 
 ### KEY:
 
-- A = Abandoned - Content was outdated and couldnt complete or too beginner and didn't want to
-- C = Completed - 
+- A = Abandoned - Content was outdated and couldn't complete or too beginner and didn't want to
+- C = Completed - Completed all course content
 - S = Stopped - Temporarily stopped but still intend to complete
 
 ### List
