@@ -1,6 +1,7 @@
 # 401 JS
 db
 *.env
+*env.h
 temp
 build
 .next

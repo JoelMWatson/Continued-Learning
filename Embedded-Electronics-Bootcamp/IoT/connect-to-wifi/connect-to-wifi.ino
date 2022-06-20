@@ -1,11 +1,15 @@
-#include<ESP8266WiFi.h>
+#include<ESP8266WiFi.h>;
+#include<BlynkSimpleEsp8266.h>
+#include "env.h";
 
-const char *ssid = "";
-const char *pass ="";
+const char *ssid = MY_SSID;
+const char *pass = MY_PASS;
+char auth[]= BLYNK_AUTH_TOKEN;
 
 void setup() {
   Serial.begin(9600);
   delay(10);
+  digitalWrite(LED_BUILTIN, HIGH);
   Serial.println("Connecting to...");
   Serial.println(ssid);
 
@@ -18,9 +22,9 @@ void setup() {
   }
   
   Serial.println("Wifi connected!");
+  Blynk.begin();
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-
+  Blynk.run();
 }

@@ -6,6 +6,8 @@
 
 int main()
 {
+<<<<<<< HEAD
+=======
   int num = 50;
   int *nptr = &num;
 
@@ -15,6 +17,7 @@ int main()
   printf("Value of the nptr Pointer var: nptr = %p\n",nptr);
   printf("Value nptr pointer var Points to: *nptr = %d\n",*nptr);
 
+>>>>>>> 317f39cf1c67c13641bbe022487e9cec5d88afa2
   FILE *fp, *newp = NULL;
   char c;
   // rename
