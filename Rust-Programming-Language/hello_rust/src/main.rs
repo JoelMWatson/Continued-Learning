@@ -1,8 +1,10 @@
 #![allow(dead_code)]
 #![allow(unused_variables)]
-use std::mem;
-use rand::Rng;
 use std::io::stdin;
+use std::mem;
+mod pm;
+mod rust_strings;
+mod standard_collections;
 /* globals */
 
 // constant
@@ -12,6 +14,21 @@ const MEANING_OF_LIFE: u8 = 42; // no fixed address
 static MEANING_OF_LOOF: u8 = 41; // has memory address
 
 fn main() {
+    // // In file code
+    // variables();
+    // operators();
+    // stack_heap();
+    // for_loops();
+    // lock();
+    // generics();
+
+    // separated into files
+    // pm::pattern_matching();
+    // standard_collections::collections();
+    rust_strings::strings();
+}
+
+fn variables() {
     let a: u8 = 123; // u = unsigned 8 = 8 bits
     println!("a = {}", a);
 
@@ -26,10 +43,6 @@ fn main() {
     let d: char = 'x';
     let e: f32 = 2.5;
     let g: bool = false;
-    operators();
-    stack_heap();
-    for_loops();
-    lock();
 }
 
 fn operators() {
@@ -92,7 +105,7 @@ fn match_statement() {
 enum State {
     Locked,
     Failed,
-    Unlocked
+    Unlocked,
 }
 
 fn lock() {
@@ -112,7 +125,7 @@ fn lock() {
 
                 if entry == code {
                     state = State::Unlocked;
-                    continue
+                    continue;
                 };
 
                 if !code.starts_with(&entry) {
@@ -131,6 +144,24 @@ fn lock() {
             }
         }
     }
-
 }
 
+struct GenericPoint<T> {
+    x: T,
+    y: T,
+}
+
+struct Line<T> {
+    start: GenericPoint<T>,
+    end: GenericPoint<T>,
+}
+
+fn generics() {
+    let a: GenericPoint<i32> = GenericPoint { x: 0, y: 0 };
+    let b: GenericPoint<f64> = GenericPoint { x: 4.2, y: 2.4 };
+
+    let line = Line {
+        start: GenericPoint { x: 0, y: 0 },
+        end: GenericPoint { x: 1, y: 1 },
+    };
+}
