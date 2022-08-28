@@ -102,10 +102,19 @@ fn higher_order_functions() {
         }
     }
     println!("Loop sum: {}", sum);
+
+    let sum2 = (0..)
+        .map(|x| x * x)
+        .take_while(|&x| x < limit)
+        .filter(|x| is_even(*x))
+        .fold(0, |sum, x| sum + x);
+    println!("Loop sum: {}", sum2);
 }
 
-fn greater_than(limit: u32) {}
+fn greater_than(limit: u32) -> impl Fn(u32) -> bool {
+    move |y| y > limit
+}
 
-fn is_even(x: i32) -> bool {
+fn is_even(x: u32) -> bool {
     x % 2 == 0
 }
