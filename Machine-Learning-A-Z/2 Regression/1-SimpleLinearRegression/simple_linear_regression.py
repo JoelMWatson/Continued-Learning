@@ -20,8 +20,10 @@ regressor.fit(x_train, y_train)
 y_pred = regressor.predict(x_test)
 
 # visualize the training results
+x_grid = np.arange(min(x_train), max(x_train), 0.1)
+x_grid = x_grid.reshape((len(x_grid), 1))
 plt.scatter(x_train, y_train, color = "red")
-plt.plot(x_train, regressor.predict(x_train), color = "blue")
+plt.plot(x_grid, regressor.predict(x_grid), color = "blue")
 plt.title("Salary vs Experience (training set)")
 plt.xlabel("Years of experience")
 plt.ylabel("Salary")
