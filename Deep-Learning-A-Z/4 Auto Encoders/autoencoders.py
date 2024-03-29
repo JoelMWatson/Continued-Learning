@@ -88,7 +88,7 @@ test_loss = 0
 s=0.0
 for user in range(num_users):
     input = Variable(training_set[user]).unsqueeze(0)
-    target = Variable(test_set[user])
+    target = Variable(test_set[user]).unsqueeze(0)
     if torch.sum(target.data>0) >0:
         output = sae(input)
         target.require_grad = False

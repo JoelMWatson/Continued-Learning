@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    My Blog
+{% endblock title %}
+
+{% block css_files %}
+<link rel="stylesheet" href="{% static "blog/post.css" %}">
+<link rel="stylesheet" href="{% static "blog/index.css" %}">
+{% endblock css_files %}
+{% block body %}
+    <section id="welcome">
+        <header>
+            <img src="{% static "blog/images/max.png" %}" alt="Joel - The Author">
+            <h2>Joel's Blog</h2>
+        </header>
+        <p>Hi i am joal and I love bla bla bla</p>
+    </section>
+    <section id="latest-posts">
+        <ul>
+            {% for post in posts %}
+                {% include "blog/partials/post.html" %}
+            {% endfor %}
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>What I do</h2>
+        <p>
+            Some dummy text about what I do and what I plan to do.
+        </p>
+        <p>
+            and here is another paragraph haha i am so creative with my dummy text.
+        </p>
+    </section>
+    
+{% endblock body %}
